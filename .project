@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-<<<<<<< HEAD
-	<name>hello</name>
-=======
-	<name>helloworld</name>
->>>>>>> Hello World!
+	<name>WizardingWorld</name>
 	<comment></comment>
 	<projects>
 	</projects>
