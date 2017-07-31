@@ -1,0 +1,53 @@
+*
+Name Harry Potter
+School Hogwarts
+House Gryffindor
+Blood Pure
+Birthday 31/07/1997
+
+*
+
+Name 
+Ronald Weasley
+
+School Hogwarts
+
+House Gryffindor
+
+Blood Pure
+
+Birthday 01/03/1980
+
+*
+
+Name Ginevra Weasley
+
+School Hogwarts
+
+House Gryffindor
+
+Blood Pure
+Birthday 11/08/1981
+
+*
+
+Name Hermione Granger
+
+School Hogwarts
+
+House Gryffindor
+
+Blood Muggle
+
+Birthday 19/10/1979
+
+*
+
+Name Neville Longbottom
+School Hogwarts
+
+House Gryffindor
+
+Blood Pure
+
+Birthday 30/07/1980

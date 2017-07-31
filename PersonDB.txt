@@ -1,0 +1,57 @@
+Albus Dumbledore
+Gryffindor
+Pureblood
+Hogwarts
+unknown
+professor
+*
+Fleur Delacour
+N/A
+part-human
+Beauxbatton
+unknown
+student
+*
+
+Luna Lovegood
+
+Ravenclaw
+
+Pureblood
+
+Hogwarts
+
+unknown
+
+student
+
+*
+
+Dean Thomas
+
+Gryffindor
+
+halfblood
+
+Hogwarts
+
+unknown
+
+student
+
+*
+
+Katie Bell
+
+Gryffindor
+
+Pureblood
+
+Hogwarts
+
+unknown
+
+student
+
+*
+$

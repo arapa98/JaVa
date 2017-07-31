@@ -1,0 +1,65 @@
+Potions
+O
+Severus Snape
+1995
+3
+Harry Potter
+Hermoine Granger
+Ronald Weasley
+*
+Flying
+A
+Madame Hooche
+1996
+1
+Draco Malfoy
+*
+
+Transfiguration
+
+E
+
+Minerva McGonagall
+
+1995
+
+2
+
+Dean Thomas
+
+Katie Bell
+
+*
+
+Charms
+
+E
+
+Filius Flitwick
+
+1990
+
+3
+
+Alicia Spinnet
+
+Harry Potter
+
+Hermione Granger
+
+*
+
+Astronomy
+
+A
+
+Aurora Sinistra
+
+1994
+
+1
+
+Percy Weasley
+
+*
+$
