@@ -1,37 +1,44 @@
 package entities;
-import java.util.Date;
 
 public class Person {
-	private String _name;
-	private String _houseName;
-	private String _bloodStatus;
-	private String _school;
-	private Date _birthday;
+	protected String _name;
+	protected House _house;
+	protected BloodStatus _bloodStatus;
+	protected School _school;
+	protected String _birthday;
 	
 	public void setName( String name) { _name= name;}
-	public void setHouseName( String house) { _houseName= house;}
-	public void setBloodStatus( String blood) { _bloodStatus= blood;}
-	public void setSchool( String school) { _school= school;}
-	public void setBirthday( Date day) { _birthday= day;}
+	public void setHouse( House house) { _house= house;}
+	public void setBloodStatus( BloodStatus status) { _bloodStatus= status;}
+	public void setSchool( School school) { _school= school;}
+	public void setBirthday( String day) { _birthday= day;}
 	
 	public String getName() { return _name;}
-	public String getHouseName() { return _houseName;}
-	public String getBloodStatus() { return _bloodStatus;}
-	public String getSchool() { return _school;}
-	public Date getBirthday() { return _birthday;}
-	
+	public House getHouse() { return _house;}
+	public BloodStatus getBloodStatus() { return _bloodStatus;}
+	public School getSchool() { return _school;}
+	public String getBirthday() { return _birthday;}
 	public Person( String name) {
 		_name= name;
-		_houseName= null;
+		_house= null;
 		_bloodStatus= null;
 		_school= null;
+		_birthday= null;
 	}
-	
-	public Person(String name, String house, String blood, String school, Date day) {
+		
+	public Person(String name, House house, BloodStatus status	, School school, String day) {
 		_name= name;
-		_houseName= house;
-		_bloodStatus= blood;
+		_house= house;
+		_bloodStatus= status;
 		_school= school;
 		_birthday= day;
+	}
+	
+	public Person() {
+		_name= null;
+		_house= null;
+		_bloodStatus= null;
+		_school= null;
+		_birthday= null;
 	}
 }
