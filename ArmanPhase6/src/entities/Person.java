@@ -16,9 +16,14 @@ public class Person {
 	public void setBirthday( String day) { 
 		if(checkDate(day)) 
 			_birthday= day;
-		else
+		else {
 			System.out.println("date is not valid");
+			_birthday="unknown";
+		}
+		
 	}
+
+	
 	
 	public String getName() { return _name;}
 	public House getHouse() { return _house;}
@@ -27,14 +32,18 @@ public class Person {
 	public String getBirthday() { return _birthday;}
 	private boolean checkDate( String date) {
 		String[] splitted= date.split("/");
-		int year= Integer.valueOf( splitted[0]);
-		int month= Integer.valueOf( splitted[1]);
-		int day= Integer.valueOf( splitted[2]);
-		if ( month>12 || (month<6 && day>31) || (month>6 && day>30))
+		if( splitted.length != 3) {
 			return false;
-		else 
-			return true;
-		
+		}
+		else {
+			int year= Integer.valueOf( splitted[0]);
+			int month= Integer.valueOf( splitted[1]);
+			int day= Integer.valueOf( splitted[2]);
+			if ( month>12 || (month<6 && day>31) || (month>6 && day>30) || ( year< 1900) || ( year> 2017))
+				return false;
+			else 
+				return true;
+		}
 	}
 	
 	public Person( String name) {

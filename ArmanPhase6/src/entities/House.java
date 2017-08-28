@@ -42,11 +42,16 @@ public class House{
 	public String toString(){
 		String house= "";
 		house += "House " + _name + ", school is " + _school.getName();
-		house += ", students(" + _students.size() + ") : "; 
-		for(int i=0; i<_students.size()-1; i++) {
-			house +=  _students.get(i).getName() + ", ";			
+		if( _students.size() >=1) {
+			house += ", students(" + _students.size() + ") : "; 
+			for(int i=0; i<_students.size()-1; i++) {
+				house +=  _students.get(i).getName() + ", ";			
+			}
+		
+			house += _students.get((_students.size()-1)).getName();
 		}
-		house += _students.get(_students.size()-1).getName();
+		else 
+			house += ", This house doesn't have any student!";
 		return house;
 	}
 }

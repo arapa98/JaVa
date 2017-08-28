@@ -14,7 +14,7 @@ public class Main {
 		ss.getData("SchoolDB.txt");
 		Vector<School> schools= ss.getAllSchools();
 		for ( int i=0; i<schools.size(); i++) 
-			System.out.println(schools.get(i)._toString());
+			System.out.println(schools.get(i).toString());
 		System.out.println("\n");
 		ss.setData();
 		
@@ -25,7 +25,7 @@ public class Main {
 		stus.getData("StudentDB.txt");
 		Vector<Student> students= stus.getAllStudents();
 		for(int i=0; i< students.size(); i++)
-			System.out.println(students.get(i)._toString());
+			System.out.println(students.get(i).toString());
 		System.out.println("\n");
 		stus.setData();
 	
@@ -35,7 +35,7 @@ public class Main {
 		ps.getData("ProfessorDB.txt");
 		Vector<Professor> profs= ps.getAllProfessors();
 		for( int i=0; i< profs.size(); i++)
-			System.out.println(profs.get(i)._toString());
+			System.out.println(profs.get(i).toString());
 		System.out.println("\n");
 		ps.setData();
 		
@@ -47,7 +47,7 @@ public class Main {
 		persev.getData("PersonDB.txt");
 		Vector<Person> persons= persev.getAllPersons();
 		for( int i=0; i<persons.size(); i++)						
-			System.out.println(persons.get(i)._toString());
+			System.out.println(persons.get(i).toString());
 		System.out.println("\n");
 		persev.setData();
 	
@@ -56,7 +56,7 @@ public class Main {
 		cs.getData("CourseDB.txt");
 		Vector<Course> courses= cs.getAllCourses();
 		for(int i=0; i<courses.size(); i++) 
-			System.out.println(courses.get(i)._toString());
+			System.out.println(courses.get(i).toString());
 		System.out.println("\n");
 		cs.setData();
 	
@@ -65,7 +65,7 @@ public class Main {
 		hs.getData("HouseDB.txt");
 		Vector<House> houses= hs.getAllHouses();
 		for( int i=0; i<houses.size(); i++) 
-			System.out.println(houses.get(i)._toString());
+			System.out.println(houses.get(i).toString());
 		System.out.println("\n");
 		hs.setData();
 	

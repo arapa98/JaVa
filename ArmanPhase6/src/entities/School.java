@@ -1,7 +1,6 @@
 package entities;
 
-import java.util.ArrayList;
-import java.util.Vector;
+import java.util.*;
 
 public class School {
 	private String _name;
@@ -16,7 +15,7 @@ public class School {
 	
 	public void setName( String name) { _name= name;}
 	public void setNumOfStudents( int num) { _numOfStudents= num;}
-	public void setHouses( ArrayList<House> houses) { _houses= houses;}
+	public void setHouses( ArrayList<House> houses) { _houses= houses; _housed=true;}
 	public void setCourses( ArrayList<Course> courses) { _courses= courses;}
 	public void setStudents( Vector<Student> students) { _students= students;}
 	public void setProfessors( Vector<Professor> professors) { _professors= professors;}

@@ -1,9 +1,6 @@
 package entities;
+import java.util.*;
 
-import java.util.Date;
-import java.util.Vector;
-
-import java.util.ArrayList;
 
 public class Student extends Person{
 
